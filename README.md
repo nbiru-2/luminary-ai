@@ -10,6 +10,7 @@ The project is developed incrementally throughout the semester and targets **thr
 The goal of this project is to design, build, and deploy a modern AI-powered chat application while learning real-world web and mobile development practices.
 
 The app will be implemented in multiple stages, covering:
+
 - Frontend development (Web & Mobile)
 - Backend APIs
 - Database integration
@@ -35,6 +36,7 @@ The app will be implemented in multiple stages, covering:
 ## 🛠️ Technology Stack.
 
 ### Web
+
 - React
 - Next.js
 - Tailwind CSS
@@ -44,12 +46,14 @@ The app will be implemented in multiple stages, covering:
 - Vercel (hosting & database)
 
 ### Mobile
+
 - Kotlin
 - Compose Multiplatform
 - Ktor
 - Android Studio
 
 ### AI
+
 - OpenRouter
 - Ollama
 - cloudflared
