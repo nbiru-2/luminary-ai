@@ -1,6 +1,6 @@
 # Luminary AI 🤖💬
 
-Luminary AI is a ChatGPT-like AI chat application built as part of the **Web Application Development** course.  
+Luminary AI is a ChatGPT-like AI chat application built as part of the **Web Application Development** course.
 The project is developed incrementally throughout the semester and targets **three platforms**: Web, Android, and iOS — all sharing a common backend.
 
 ---
@@ -32,7 +32,7 @@ The app will be implemented in multiple stages, covering:
 
 ---
 
-## 🛠️ Technology Stack
+## 🛠️ Technology Stack.
 
 ### Web
 - React
@@ -53,4 +53,3 @@ The app will be implemented in multiple stages, covering:
 - OpenRouter
 - Ollama
 - cloudflared
-
