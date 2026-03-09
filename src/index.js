@@ -1,18 +1,21 @@
-const form = document.querySelector(".input-area");
-const input = form.querySelector("input");
-const messages = document.querySelector("#message-history");
+class ChatMessage extends HTMLElement {
+  connectedCallback() {
+    const sender = this.getAttribute("sender") || "ai";
+    const text = this.innerHTML.trim();
+    const isUser = sender === "user";
 
-form.addEventListener("submit", function (event) {
-  event.preventDefault();
+    this.innerHTML = `
+      <div class="flex ${isUser ? "justify-end" : "justify-start"}">
+        <div class="${
+          isUser
+            ? "bg-indigo-500 text-white"
+            : "bg-slate-200 text-slate-900"
+        } max-w-md rounded-2xl px-4 py-3 shadow-sm">
+          ${text}
+        </div>
+      </div>
+    `;
+  }
+}
 
-  const text = input.value.trim();
-  if (text === "") return;
-
-  const newMessage = document.createElement("div");
-  newMessage.classList.add("messages"); // match your existing class
-  newMessage.textContent = text;
-
-  messages.appendChild(newMessage);
-
-  input.value = "";
-});
+customElements.define("chat-message", ChatMessage);
