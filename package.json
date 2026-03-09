@@ -1,0 +1,31 @@
+{
+  "name": "luminary-ai",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Luminary AI is a ChatGPT-like AI chat application built as part of the **Web Application Development** course. The project is developed incrementally throughout the semester and targets **three platforms**: Web, Android, and iOS — all sharing a common backend.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nbiru-2/luminary-ai.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nbiru-2/luminary-ai/issues"
+  },
+  "homepage": "https://github.com/nbiru-2/luminary-ai#readme",
+  "devDependencies": {
+    "eslint": "^9.39.3",
+    "eslint-config-prettier": "^10.1.8",
+    "globals": "^17.3.0",
+    "prettier": "^3.8.1"
+  }
+}
